@@ -1,33 +1,24 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <title>Преподаватель</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>Tutor</title>
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <header>
-  <h1>Преподаватель</h1>
+  <h1 class="logo">OlympGuy</h1>
 </header>
 
-<section>
-  <h2>Арсен Алмасхан</h2>
-  <p>Олимпиадник и исследователь в Nazarbayev University</p>
+<section class="hero">
+  <h2>About Tutor</h2>
+  <p>Research-driven approach to olympiad physics</p>
+</section>
 
-  <h3>Достижения:</h3>
-  <ul>
-    <li>Призёр международных олимпиад</li>
-    <li>National Olympic Reserve</li>
-    <li>Research Assistant (NU)</li>
-  </ul>
-
-  <h3>Опыт:</h3>
-  <p>Подготовка более 100 учеников к олимпиадам по физике</p>
-
-  <h3>Контакты:</h3>
-  <p>Email: arsen.almaskhan.work@gmail.com</p>
-  <p>LinkedIn: <a href="https://www.linkedin.com/in/arsen-almaskhan/">Профиль</a></p>
+<section class="card big">
+  <p>Experience in advanced physics topics, olympiad training and research mindset.</p>
 </section>
 
 </body>
