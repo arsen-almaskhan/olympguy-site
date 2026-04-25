@@ -1,35 +1,26 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <title>Запись</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>Schedule</title>
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <header>
-  <h1>Запись на занятия</h1>
+  <h1 class="logo">OlympGuy</h1>
 </header>
 
-<section>
+<section class="hero">
+  <h2>Start Training</h2>
+</section>
+
+<section class="card big">
   <form>
-    <label>Имя:</label><br>
-    <input type="text"><br>
-
-    <label>Возраст:</label><br>
-    <input type="number"><br>
-
-    <label>Уровень:</label><br>
-    <select>
-      <option>Начальный</option>
-      <option>Средний</option>
-      <option>Продвинутый</option>
-    </select><br>
-
-    <label>Сообщение:</label><br>
-    <textarea></textarea><br>
-
-    <button>Отправить</button>
+    <input type="text" placeholder="Name" required>
+    <input type="email" placeholder="Email" required>
+    <button type="submit" class="btn">Submit</button>
   </form>
 </section>
 
