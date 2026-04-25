@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <title>Темы</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>Topics</title>
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <header>
-  <h1>Темы подготовки</h1>
+  <h1 class="logo">OlympGuy</h1>
+  <nav>
+    <a href="/index">Главная</a>
+    <a href="/topics">Темы</a>
+    <a href="/tutor">Преподаватель</a>
+    <a href="/schedule">Запись</a>
+  </nav>
 </header>
 
-<section>
-  <ul>
-    <li>Механика (IPhO уровень)</li>
-    <li>Термодинамика</li>
-    <li>Электродинамика</li>
-    <li>Оптика</li>
-    <li>Квантовая физика</li>
-  </ul>
+<section class="grid">
+  <div class="card">Mechanics</div>
+  <div class="card">Electrodynamics</div>
+  <div class="card">Quantum Physics</div>
+  <div class="card">Thermodynamics</div>
 </section>
 
 </body>
