@@ -2,47 +2,47 @@
 <html lang="ru">
 <head>
 <meta charset="UTF-8">
-<title>OlympGuy | Олимпиадная физика</title>
+<title>OlympGuy</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
-  <h1>OlympGuy</h1>
+  <h1 class="logo">OlympGuy</h1>
   <nav>
-    <a href="index.html">Главная</a>
-    <a href="topics.html">Темы</a>
-    <a href="tutor.html">Преподаватель</a>
-    <a href="schedule.html">Запись</a>
+    <a href="/index">Главная</a>
+    <a href="/topics">Темы</a>
+    <a href="/tutor">Преподаватель</a>
+    <a href="/schedule">Запись</a>
   </nav>
 </header>
 
 <section class="hero">
-  <h2>Подготовка к олимпиадам по физике</h2>
-  <p>От базовых задач до уровня IPhO</p>
-  <a href="schedule.html" class="btn">Записаться</a>
+  <h2>Olympiad Physics Platform</h2>
+  <p>From fundamentals to IPhO level</p>
+  <a href="/schedule" class="btn">Start Training</a>
 </section>
 
-<section class="features">
+<section class="grid">
   <div class="card">
-    <h3>Индивидуальный подход</h3>
-    <p>Программа под уровень ученика</p>
+    <h3>IPhO Level</h3>
+    <p>Real international olympiad problems</p>
   </div>
 
   <div class="card">
-    <h3>IPhO уровень</h3>
-    <p>Задачи международных олимпиад</p>
+    <h3>1-on-1 Training</h3>
+    <p>Fully personalized learning path</p>
   </div>
 
   <div class="card">
-    <h3>Результаты</h3>
-    <p>Рост навыков и уверенности</p>
+    <h3>Deep Theory</h3>
+    <p>Not just solving — real understanding</p>
   </div>
 </section>
 
 <footer>
-  <p>Email: arsen.almaskhan.work@gmail.com</p>
+  <p>arsen.almaskhan.work@gmail.com</p>
 </footer>
 
 </body>
