@@ -1,41 +1,48 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <title>OlympGuy | Олимпиадная физика</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>OlympGuy | Олимпиадная физика</title>
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <header>
   <h1>OlympGuy</h1>
   <nav>
     <a href="index.html">Главная</a>
+    <a href="topics.html">Темы</a>
     <a href="tutor.html">Преподаватель</a>
     <a href="schedule.html">Запись</a>
-    <a href="topics.html">Темы</a>
   </nav>
 </header>
 
 <section class="hero">
-  <h2>Олимпиадная физика для школьников</h2>
-  <p>Подготовка к республиканским и международным олимпиадам</p>
+  <h2>Подготовка к олимпиадам по физике</h2>
+  <p>От базовых задач до уровня IPhO</p>
   <a href="schedule.html" class="btn">Записаться</a>
 </section>
 
-<section>
-  <h2>Почему выбрать нас?</h2>
-  <ul>
-    <li>Индивидуальный подход</li>
-    <li>Задачи уровня IPhO</li>
-    <li>Опыт преподавания 100+ учеников</li>
-  </ul>
+<section class="features">
+  <div class="card">
+    <h3>Индивидуальный подход</h3>
+    <p>Программа под уровень ученика</p>
+  </div>
+
+  <div class="card">
+    <h3>IPhO уровень</h3>
+    <p>Задачи международных олимпиад</p>
+  </div>
+
+  <div class="card">
+    <h3>Результаты</h3>
+    <p>Рост навыков и уверенности</p>
+  </div>
 </section>
 
 <footer>
-  <p>Контакты:</p>
   <p>Email: arsen.almaskhan.work@gmail.com</p>
-  <p>Телефон: +7 (747) 621-50-11</p>
 </footer>
 
 </body>
